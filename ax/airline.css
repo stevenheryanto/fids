@@ -1,0 +1,18 @@
+.al_logo { 
+/* min-width: 180px; min-height: 46px; */
+background: #111; 
+-webkit-box-shadow: 1px 1px 2px 1px #000000; box-shadow: 1px 1px 2px 1px #000000;
+float: left; opacity: .2
+}
+
+span.al_ga { background: url('/pic/al/garuda.png') center center no-repeat; background-size: 100% 100%; opacity: 1}
+span.al_tr { background: url('/pic/al/travira.png') center center no-repeat; background-size: 100% 100%; opacity: 1}
+span.al_jt { background: url('/pic/al/lion.png') center center no-repeat; background-size: 100% 100%; opacity: 1}
+span.al_mz { background: url('/pic/al/merpati.png') center center no-repeat; background-size: 100% 100%; opacity: 1}
+span.al_tn { background: url('/pic/al/trigana.png') center center no-repeat; background-size: 100% 100%; opacity: 1}
+span.al_sj { background: url('/pic/al/sriwijaya.png') center center no-repeat; background-size: 100% 100%; opacity: 1}
+span.al_si { background: url('/pic/al/susi.png') center center no-repeat; background-size: 100% 100%; opacity: 1}
+span.al_mv { background: url('/pic/al/aviastar.png') center center no-repeat; background-size: 100% 100%; opacity: 1}
+span.al_qz { background: url('/pic/al/airasia.png') center center no-repeat; background-size: 100% 100%; opacity: 1}
+span.al_fs { background: url('/pic/al/airfast.png') center center no-repeat; background-size: 100% 100%; opacity: 1}
+

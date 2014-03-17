@@ -1,0 +1,11 @@
+<option value='FS'>Airfast Indonesia</option>
+<option value='GA'>Garuda Indonesia</option>
+<option value='JT'>Lion Air</option>
+<option value='MV'>Aviastar </option>
+<option value='MZ'>Merpati Nusantara Airlines</option>
+<option value='SI'>Susi Air</option>
+<option value='SJ'>Sriwijaya Air</option>
+<option value='TN'>Trigana Air</option>
+<option value='TR'>Travira Air</option>
+<option >----------------</option>
+

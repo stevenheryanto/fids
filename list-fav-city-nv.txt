@@ -1,0 +1,14 @@
+<option value='CGK'>Jakarta(CGK)</option>
+<option value='DJJ'>Jayapura(DJJ)</option>
+<option value='BXB'>Babo(BXB)</option>
+<option value='UPG'>Makassar(UPG)</option>
+<option value='MKW'>Manokwari(MKW)</option>
+<option value='MKQ'>Merauke(MKQ)</option>
+<option value='SUB'>Surabaya(SUB)</option>
+<option value='NBX'>Nabire(NBX)</option>
+<option value='ZRI'>Serui(ZRI)</option>
+<option value='WMX'>Wamena(WMX)</option>
+<option value='TIM'>Timika(TIM)</option>
+<option value='FOO'>Numfor(FOO)</option>
+<option value='0'>----------------</option>
+

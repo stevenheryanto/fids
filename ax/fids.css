@@ -1,0 +1,49 @@
+li.head { color: #cde;
+background: #000000; /* Old browsers */
+background: -moz-linear-gradient(top,  #000000 25%, #3f4c6b 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(25%,#000000), color-stop(100%,#3f4c6b)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #000000 25%,#3f4c6b 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #000000 25%,#3f4c6b 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #000000 25%,#3f4c6b 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #000000 25%,#3f4c6b 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#3f4c6b',GradientType=0 ); /* IE6-9 */
+}
+
+li.airline { width: 33%; height: 2em; line-height: 1em; text-align: right }
+li.line li.airline b { color: #ff0; }
+li.line li.airline i { font-size: .75em; }
+li.city { width: 26%; height: 2em; margin-left: 1%; line-height: 1em; } 
+li.line li.city b { color: #fff; }
+
+li.time { width: 8%; text-align: right; }
+li.gate { width: 4%; text-align: center; }
+li.status { width: 18%; text-align: left; }
+
+li.line li.status { font-weight: 700; }
+
+html li.line li.code_000 b { display: none; }
+html li.line li.code_000 i { font-size: 1em; color: #ff0; font-weight: 700}
+
+.st_9 { display:none } 
+.st_0 .status { color: #666; opacity: .5 }
+.st_3 .status { color: #0f0; } 
+.st_1 .status { color: #ff0; }
+.st_10 .status, .st_1 .status {
+	text-decoration:blink;
+	-webkit-animation-name:blinker; animation-name:blinker; 
+	-webkit-animation-iteration-count:infinite;  animation-iteration-count:infinite; 
+	-webkit-animation-timing-function:cubic-bezier(1.0,0,0,1.0); animation-timing-function:cubic-bezier(1.0,0,0,1.0);
+	-webkit-animation-duration:1s;  animation-duration:1s; 
+}
+
+#fids_a li.line:nth-of-type(even)   { background:#002 !important }
+#fids_a li.line:nth-of-type(odd)    { background:#003 !important }
+
+#fids_d li.line:nth-of-type(even)   { background:#020 !important }
+#fids_d li.line:nth-of-type(odd)    { background:#030 !important }
+
+span.ap { 
+display: block; width:180px; position:absolute; top:28px; left: 48%;
+background:url('/pic/logo-ap-180.png') top right no-repeat; float; none; height:139px; z-index: 1
+}
+ 

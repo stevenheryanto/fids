@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Cabin Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cabin Condensed'), local('CabinCondensed'), url(B0txb0blf2N29WdYPJjMSlpNuLN9P2dR6eOCPYblbcM.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Cabin Condensed';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Cabin Condensed Medium'), local('CabinCondensed-Medium'), url(Ez4zJbsGr2BgXcNUWBVgEHBc6c7GJRyI5TJeLr8zflk.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Cabin Condensed';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Cabin Condensed SemiBold'), local('CabinCondensed-SemiBold'), url(Ez4zJbsGr2BgXcNUWBVgEPf4jeoVDNLU0gIpvaTJHt4.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Cabin Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Cabin Condensed Bold'), local('CabinCondensed-Bold'), url(Ez4zJbsGr2BgXcNUWBVgEMYsb_UBatsJhtlz83pruSg.ttf) format('truetype');
+}
+
+html { font-family: 'Cabin Condensed', sans-serif; }

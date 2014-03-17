@@ -1,0 +1,91 @@
+html { overflow-x: hidden; }
+body { line-height: 24px; font-size: 18px; 
+font-family: "Calibri","Tahoma",arial,helv,helvetica,san-serif; background: #ccc; }
+.unw { white-space: nowrap; overflow: hidden; }
+
+#topbar { position: fixed; top: 0;  left; 0; width: 100%; background: #666; color: #333; height: 48px; line-height: 24px; z-index: 9 }
+#topbar div.header { float: left; height: 48px;  }
+#topbar form { float: right; font-size: .9em; line-height: 48px; margin-right: 24px; }
+
+#topbar div.header div { float: left; height: 24px; line-height: 24px; margin: 22px 0 0 100px; }
+#topbar div.header div a { background: #248; color: #ccc; display: inline-block; height: 24px; line-height: 24px; padding: 0 8px; font-size: .75em; 
+-webkit-border-radius: 5px 5px 0px 0px; border-radius: 5px 5px 0px 0px; }
+
+#topbar div.header div.gogo a { background: #fc3; color: #000; }
+
+a.newrec-active,
+#topbar div.header div a:hover { background: #136; color: #fff; }
+#topbar div.header div.gogo a:hover { background: #f90; color: #333; }
+
+#topbar div.header h1 { float: left; font-weight: 700; line-height: 48px; margin-left: 8px; color: #eee; width: 300px;}
+
+#topbar .tglgo { float: right; }
+.input  { border: 1px solid #ddd; border-top: 1px solid #666; border-left: 1px solid #666; background: #fff; font-size: .75em; 
+padding: 0 2px; -webkit-border-radius: 3px; border-radius: 3px;}
+.button { border: 1px solid #d93; border-top: 1px solid #fd1; border-left: 1px solid #fd1; background: #fc3; padding: 2px; font-size: .75em; 
+-webkit-border-radius: 3px; border-radius: 3px;
+text-transform: uppercase; }
+
+#edita { position: fixed; top: 48px; z-index: 9; width: 540px; margin-left: 10%; }
+
+#edita .submit .button { background: #369; color: #fff; width: 120px; }
+
+.padin { padding: 10px; border: 1px solid #666; background: #ffe; border-top: 5px solid #136; }
+
+.fl_table { width: 100%; margin: 0 auto; border-bottom: none; background: #fff;  border-bottom: 1px solid #999; z-index: 1 }
+.fl_table li li {  display: inline-block; }
+.fl_table .head { background: #333; color: #fff; height: 32px; line-height: 32px; width: 100%; font-size: .85em }
+.fl_table .head li { font-weight: 700; }
+
+#table_head { position: fixed; top: 48px; height: 32px; }
+#table { margin-top: 80px; padding-bottom: 100px; }
+
+.fl_table > li { clear: both; }
+.fl_table > li.line > ul > li { border-bottom: 1px solid #999; height: 32px; }
+.fl_table > li.line:hover > ul > li { background: #dde }
+.fl_table > li > ul > li { float: left; padding: 2px .5%; width: 11.5%; font-size: .9em; line-height: 32px; }
+
+.fl_table li.hi span.l_time,
+.fl_table li.hi { font-weight: 700; }
+
+.fl_table li.c1 { width: 12.5%; text-align: right }
+.fl_table li.c2 { width: 21.5%; text-align: left; }
+.fl_table li.c3 { width: 6.5%; text-align: right; }
+.fl_table li.c4 { width: 23.5%; text-align: left; }
+.fl_table li.c5 { width: 3.5%; text-align: right; }
+.fl_table li.c6 { width: 3.5%; text-align: center; }
+.fl_table li.c8 { width: 8.5%; text-align: right; padding-right: 1.5%}
+
+.clr { clear: both; }
+
+li.act:hover  { color: #900; }
+li.act:hover .icn { color: #00c; }
+
+li.Hide  li.act a{ display: none } 
+
+li.Scheduled li.act:hover .icn,
+li.Scheduled .act a { color: #ccc; }
+
+#bottom {  position: fixed; top: 100%; margin-top: -89px; width: 100%; background: #ccc; border-top: 5px solid #666; height: 84px;  }
+#bottom { margin-top: -89px; }
+
+#speak { float: left; margin-left: 30px; padding-top: 10px; font-weight: 700; color: #369; }
+
+#bottom .tools { float: right; margin-right: 30px; padding-top: 10px;}
+#bottom i { color: #666; }
+#bottom i:hover { color: #000 }
+
+#bottom a { margin-right: 30px }
+#bottom li.drag { display: none }
+
+
+.fform { padding-top: 24px; }
+.fform p { clear: both; height: 32px; }
+.fform p label { font-weight: 700; float: left; width: 192px; text-align: right; margin-right: 8px}
+.fform p span { float: right; width: 307px; }
+
+.fform input, .fform select { width: 307px; border: 1px solid #ddd; }
+
+
+.em-btn-post { position: absolute; margin-top: -32px; font-size: 10px; text-align: right; width: 520px; }
+.close { color: #fff; background: #c00; padding: 2px 4px; }

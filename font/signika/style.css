@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Signika';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Signika-Light'), url(koFYE26bhT88HgRA8f4vbS3USBnSvpkopQaUR-2r7iU.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Signika';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Signika'), local('Signika-Regular'), url(ejLRhBEorqjLDaF8s-xuTQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Signika';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Signika-Semibold'), url(FZa_MODmDkR9DTu5jHSnSS3USBnSvpkopQaUR-2r7iU.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Signika';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Signika-Bold'), url(7M5kxD4eGxuhgFaIk95pBS3USBnSvpkopQaUR-2r7iU.ttf) format('truetype');
+}
+
+html { font-family: 'Signika',sans-serif; }

@@ -1,0 +1,4 @@
+cat style.css | grep url | cut -d, -f3 | cut -d\) -f1 | cut -d\( -f2 | while read u; do echo wget $u; done
+cat style.css | grep url | cut -d, -f3 | cut -d\) -f1 | cut -d\( -f2 | while read u; do wget $u; done
+sed -i 's/http:\/\/themes\.googleusercontent\.com\/static\/fonts\/dosis\/v1\///gi' style.css
+

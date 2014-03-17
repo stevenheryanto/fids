@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'share';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Share'), local('Share-Regular'), url(share-regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'share';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Share Bold'), local('Share-Bold'), url(share-bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'share';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Share Italic'), local('Share-Italic'), url(share-italic.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'share';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Share Bold Italic'), local('Share-BoldItalic'), url(share-bolditalic.ttf) format('truetype');
+}
+
+html { font-family: 'share', sans-serif }
+
+@font-face {
+  font-family: 'share mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Share Tech Mono'), local('ShareTechMono-Regular'), url(RQxK-3RA0Lnf3gnnnNrAsYW_AySPyikQrZReizgrnuw.ttf) format('truetype');
+}
+
